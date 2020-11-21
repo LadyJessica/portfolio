@@ -1,0 +1,87 @@
+body {
+    font-size: 65%;
+    font-family: Courier, Geneva, sans-serif;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/850d5888-f262-47d0-bb7b-34d03cd8d3ee/dblbdx1-7e2fafe2-0327-49e8-8305-786a9cce1e30.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODUwZDU4ODgtZjI2Mi00N2QwLWJiN2ItMzRkMDNjZDhkM2VlXC9kYmxiZHgxLTdlMmZhZmUyLTAzMjctNDllOC04MzA1LTc4NmE5Y2NlMWUzMC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.j6GrPIfxmQahIoVPKFPraU7BR91qnK74MoIDJIkr1SM);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+    padding: 0;
+    margin: 0;    
+}
+h1 {
+   font-size: 2.0em;
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    padding: 0;
+  font-family: 'Megrim', cursive;
+   color: #426DFB;
+   font-size: 7.5em;
+  text-shadow: 2px 2px 5px #2de2e6;
+}
+form {
+ position: absolute;
+ left: 5em;
+ color: #f9c80e;
+ font-family: Courier, Geneva, sans-serif;
+  font-size: 16px;
+ width: 150px;  
+ 
+}
+nav {
+   color: #000;
+   font-size: 1.7em;
+   letter-spacing: 0.04em;
+   padding: 1.0em 1.0em 0.5em;
+   margin: 1.0em 0 ;
+}
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+nav li {
+   display: inline-block;
+   margin: 0;
+}
+nav li a, nav li a:visited {
+   text-decoration: none;
+   color: #C64322;
+   padding: 0.3em 0.6em;
+}
+nav li a:hover {
+   color: #f9c80e;
+   background-color: #fd3777;
+}
+nav#utilityMenu {
+   float: right;
+   margin: -1.5em 0 0 0;
+   padding: 0.35em;
+   background-color: #2e2157;
+   height: 1.3em;
+}
+nav#utilityMenu li {
+   padding: 0 0.25em 0 0.2em;
+   vertical-align: middle;    
+}
+nav#utilityMenu ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+   color: #fff;
+   text-decoration: none;
+   display: inline-block;
+   height: 1.3em;
+   padding: 0.5em;
+   margin: -0.4em 0 0 0;
+   font-size: 0.8em;
+}
+
+
+nav#utilityMenu li a, nav#utilityMenu li a:visited { padding: 0;}
+
+footer {
+ text-align: center;
+ padding: 3px;
+ background-color: transparent;
+ color: white;
+ position: absolute;
+ bottom: 10px;
+  width: 100%;
+}
+ 
